@@ -1,4 +1,4 @@
-// src/features/todos/todosSlice.js
+
 import { createSlice, nanoid } from '@reduxjs/toolkit'
 
 const initialState = {
