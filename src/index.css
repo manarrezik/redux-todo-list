@@ -103,6 +103,6 @@ body {
   border-radius: 6px;
   border: none;
   cursor: pointer;
-  background: #f03e3e;
+  background: linear-gradient(90deg,#5b2a8e,#c129a7);
   color: #fff;
 }
