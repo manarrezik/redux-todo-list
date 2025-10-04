@@ -1,0 +1,108 @@
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #0f1720;
+  color: #e6eef8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.app {
+  width: 480px;
+}
+.header {
+  text-align: center;
+  padding: 40px 0;
+  background: linear-gradient(90deg,#5b2a8e,#c129a7);
+  border-radius: 8px 8px 0 0;
+}
+.header h1 {
+  margin: 0;
+  font-size: 48px;
+  letter-spacing: 8px;
+}
+.container {
+  background: #14151a;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: -28px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+
+.todo-input {
+  display:flex;
+  gap:8px;
+}
+.todo-input input {
+  flex:1;
+  padding:12px 14px;
+  border-radius:6px;
+  border:none;
+  background:#222;
+  color:#fff;
+  outline: none;
+}
+.todo-input button {
+  padding: 12px 16px;
+  border-radius:6px;
+  border: none;
+  cursor:pointer;
+  background:#4c6ef5;
+  color:#fff;
+}
+
+
+.todo-list { margin-top:16px; }
+.todo-item {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px;
+  background:#1b1c22;
+  border-radius:4px;
+  margin-bottom:8px;
+}
+.todo-item.completed {
+  background: #0f1720;
+}
+.todo-item.completed span { text-decoration: line-through; opacity:0.6; }
+.todo-item .check {
+  border:none; background:none; cursor:pointer; font-size:18px; color:#aab0ff;
+}
+.todo-item .delete {
+  margin-left:auto; background:none; border:none; color:#ff6b6b; cursor:pointer;
+}
+.edit-input { flex:1; padding:8px; border-radius:4px; border:none; background:#222; color:#fff; }
+
+
+.footer {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-top:12px;
+  opacity:0.9;
+}
+.filters button {
+  margin:0 4px;
+  background:none;
+  border:none;
+  cursor:pointer;
+  padding:6px 8px;
+}
+.filters .active {
+  border-bottom:2px solid #4c6ef5;
+}
+.empty { text-align:center; opacity:0.7; padding:12px 0; }
+.clear-btn {
+  margin-left: auto;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #f03e3e;
+  color: #fff;
+}
