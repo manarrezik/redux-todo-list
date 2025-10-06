@@ -33,3 +33,5 @@ It allows users to manage daily tasks efficiently — add, complete, and delete 
 ```bash
 git clone https://github.com/manarrezik/redux-todo-list.git
 cd redux-todo-list
+
+### 2️⃣ Install dependencies
