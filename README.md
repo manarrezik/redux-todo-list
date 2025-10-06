@@ -5,6 +5,12 @@ A simple and responsive **To-Do List** web application built with **React** and 
 It allows users to manage daily tasks efficiently — add, complete, and delete tasks easily with a clean interface.  
 
 ---
+## 🌐 Live Demo
+
+🚀 **Try it here:** [https://redux-todo-list-jade.vercel.app/]
+
+---
+
 
 ## 🚀 Features
 
@@ -29,9 +35,11 @@ It allows users to manage daily tasks efficiently — add, complete, and delete 
 
 ## 📦 Installation
 
-### 1️⃣ Clone the repository
+###  Clone the repository
 ```bash
 git clone https://github.com/manarrezik/redux-todo-list.git
 cd redux-todo-list
 
-### 2️⃣ Install dependencies
+
+
+
